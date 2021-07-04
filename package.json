@@ -1,0 +1,38 @@
+{
+    "name": "liga_academica_marian_diamond",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app.js",
+    "scripts": {
+      "test": "npm test",
+      "start": "nodemon ./bin/www"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Beatriz-Maria/liga_academica_marian_diamond.git"
+    },
+    "keywords": [
+      "neuroscience",
+      "science",
+      "university"
+    ],
+    "author": "Beatriz Maria da Silva Pereira",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/Beatriz-Maria/liga_academica_marian_diamond/issues"
+    },
+    "homepage": "https://github.com/Beatriz-Maria/liga_academica_marian_diamonds#readme",
+    "dependencies": {
+      "cookie-parser": "^1.4.5",
+      "debug": "^4.3.1",
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "express-flash": "0.0.2",
+      "express-validator": "^5.3.0",
+      "http-errors": "^1.8.0",
+      "morgan": "^1.10.0"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.7"
+    }
+  }

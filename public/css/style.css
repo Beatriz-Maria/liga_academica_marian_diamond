@@ -1,0 +1,142 @@
+body {
+    background: #ffffff;
+    font-family: 'Sarabun', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    overflow-x: hidden;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+
+/*---------------------------------------
+  Navbar              
+-----------------------------------------*/
+
+.navbar{
+  background:#EE5251;
+}
+
+/*---------------------------------------
+  Home section              
+-----------------------------------------*/
+
+#home {
+    background: url("/imagens/neuron.png") 75% 0 repeat-y fixed;
+    background-size: cover;
+    background-position: center center;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+    text-align: right;
+}
+
+/*---------------------------------------
+  Specialization section              
+-----------------------------------------*/
+
+.container-specification{
+  padding: 42px 22px;
+}
+
+.specification-section{
+  background: red;
+  
+}
+
+/*Continer formando os blocos com itens*/
+.container{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  align-items: stretch;
+  margin: 5% 0;
+}
+
+/*Itens do conteiner*/
+.specification-thumb{
+  background: black;
+  border-radius: 5px;
+  padding: 42px 22px;
+  flex-wrap: wrap;
+  position: relative;
+  top: 0;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  text-align: center;
+   
+}
+
+.specification-thumb:hover {
+  background: #94E8E2;
+  top: -5px;
+}
+
+.specification-thumb h4 {
+  padding-bottom: 5px;
+}
+
+.specification-title{
+  text-align: center !important;
+}
+
+.specification-title  h2{
+  text-align: center;
+  line-height: 52px;
+}
+
+
+
+
+/*---------------------------------------
+  About section              
+-----------------------------------------*/
+
+.container-about{
+  padding: 42px 22px;
+}
+
+.about-title{
+  text-align: center;
+}
+
+/*---------------------------------------
+  Localization section              
+-----------------------------------------*/
+
+.container-localization{
+  padding: 42px 22px;
+}
+
+
+.localization-title{
+  text-align: center;
+}
+
+.map{
+  display:flex;
+  justify-content: flex-end;
+  background:#EE5251;
+}
+
+/*---------------------------------------
+  Social Media section              
+-----------------------------------------*/
+
+.container-social{
+  padding: 42px 22px;
+}
+
+.social-title{
+  text-align:center;
+}
