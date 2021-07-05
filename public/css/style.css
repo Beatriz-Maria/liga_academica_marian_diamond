@@ -24,7 +24,7 @@ html, body {
 -----------------------------------------*/
 
 #home {
-    background: url("/imagens/neuron.png") 75% 0 repeat-y fixed;
+    background: url("/imagens/capa-site.png") 75% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
@@ -37,7 +37,17 @@ html, body {
     align-items: center;
     height: 100vh;
     position: relative;
-    text-align:end;
+  }
+
+.home-title{
+  text-align: right;
+  margin-left: 380px;
+  color: white;
+}
+
+.logo-image-home{
+  margin-left: 150px;
+  
 }
 
 /*---------------------------------------
@@ -45,7 +55,8 @@ html, body {
 -----------------------------------------*/
 
 .container-specification{
-  padding: 42px 22px;
+  margin:5px;
+  height: 80vh;
   
 }
 
@@ -54,15 +65,14 @@ html, body {
 /*Continer formando os blocos com itens*/
 .container{
   display:flex;
-  margin: auto;
   height: 100vh;
-  justify-content: center;
-  align-items:space-around;  
+  justify-content: space-around;
+    
 }
 
 /*Itens do conteiner*/
 .specification-thumb{
-  background: #ffffff;
+  background: #F0BCAA;
   border-radius: 5px;
   padding: 42px 22px;
   position: relative;
@@ -70,27 +80,35 @@ html, body {
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
   height: 45%;
-  flex: 0 1 30%; /*deixa cada item do mesmo tamanho!!!!!*/
+  flex: 0 1 25%; /*deixa cada item do mesmo tamanho!!!!!*/
   text-align: center;
-  
- 
+  margin-top: 100px;
+  margin: 5% 0;
    
 }
 
 .specification-thumb:hover {
   background: #94E8E2;
-
+  top: -5px;
 }
 
+/*Texto dentro das caixas*/
 .specification-thumb h4 {
-  padding-bottom: 5px;
+  padding-bottom: 10px;
+}
+
+.specification-thumb:hover .fa,
+.specification-thumb:hover h4 {
+  color: #EE5251;
 }
 
 .specification-title{
-  text-align: center !important;
+  text-align: center;
 }
 
-.specification-title  h2{
+/*Título dentro das caixas*/
+.specification-title  h2{ 
+  margin-top: 20px;
   text-align: center;
   line-height: 52px;
 }
@@ -103,12 +121,51 @@ html, body {
 -----------------------------------------*/
 
 .container-about{
+  display: flex;
   padding: 42px 22px;
   height: 100vh;
+  background-color: #EE5251;
+  align-items: center;
+  justify-content:space-between; 
+  margin: 0%;
+  padding: 0%;
+  border:0%; 
+}
+
+.container-about img{
+  height: 100vh; /*Deixa a imagem do tamanho da section*/
+  
 }
 
 .about-title{
-  text-align: center;
+  margin-top: 50px;
+  
+}
+
+.about-title h2{
+  color: #94E8E2;
+  margin-left: 0px;
+  text-align:left;
+}
+
+.about-title P{
+  color: white;
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.about-button{
+  margin-top: 500px;
+  background: #F0BCAA;
+  border: none;
+  border-radius: 50px;
+  color: black;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 18px;
+  text-transform: uppercase;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
 }
 
 /*---------------------------------------
@@ -117,7 +174,7 @@ html, body {
 
 .container-localization{
   padding: 42px 22px;
-  height: 100vh;
+  height: 70vh;
 }
 
 
@@ -128,7 +185,7 @@ html, body {
 .map{
   display:flex;
   justify-content: flex-end;
-  background:#EE5251;
+  
 }
 
 /*---------------------------------------
@@ -136,8 +193,10 @@ html, body {
 -----------------------------------------*/
 
 .container-social{
+  background-color: #EE5251;
+  color: #94E8E2;
   padding: 42px 22px;
-  height: 100vh;
+  height: 50vh;
 }
 
 .social-title{
