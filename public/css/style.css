@@ -11,7 +11,6 @@ html, body {
   height: 100%;
 }
 
-
 /*---------------------------------------
   Navbar              
 -----------------------------------------*/
@@ -38,7 +37,7 @@ html, body {
     align-items: center;
     height: 100vh;
     position: relative;
-    text-align: right;
+    text-align:end;
 }
 
 /*---------------------------------------
@@ -47,39 +46,40 @@ html, body {
 
 .container-specification{
   padding: 42px 22px;
-}
-
-.specification-section{
-  background: red;
   
 }
+
+
 
 /*Continer formando os blocos com itens*/
 .container{
   display:flex;
-  flex-direction: row;
-  align-items: center;
-  align-items: stretch;
-  margin: 5% 0;
+  margin: auto;
+  height: 100vh;
+  justify-content: center;
+  align-items:space-around;  
 }
 
 /*Itens do conteiner*/
 .specification-thumb{
-  background: black;
+  background: #ffffff;
   border-radius: 5px;
   padding: 42px 22px;
-  flex-wrap: wrap;
   position: relative;
   top: 0;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
+  height: 45%;
+  flex: 0 1 30%; /*deixa cada item do mesmo tamanho!!!!!*/
   text-align: center;
+  
+ 
    
 }
 
 .specification-thumb:hover {
   background: #94E8E2;
-  top: -5px;
+
 }
 
 .specification-thumb h4 {
@@ -104,6 +104,7 @@ html, body {
 
 .container-about{
   padding: 42px 22px;
+  height: 100vh;
 }
 
 .about-title{
@@ -116,6 +117,7 @@ html, body {
 
 .container-localization{
   padding: 42px 22px;
+  height: 100vh;
 }
 
 
@@ -135,6 +137,7 @@ html, body {
 
 .container-social{
   padding: 42px 22px;
+  height: 100vh;
 }
 
 .social-title{
