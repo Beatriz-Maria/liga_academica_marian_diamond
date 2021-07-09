@@ -6,4 +6,4 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'OLA MUNDO!' });
 });
 
-module.exports = router;
+module.exports = router; 

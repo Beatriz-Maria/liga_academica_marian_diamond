@@ -24,6 +24,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Aqui ficarão todas as rotas do APP
 app.use('/', require('./routes/index'));
+app.use('/quem-somos', require('./routes/navbar'));
+//app.use('/como-participar', require('./routes/navbar'))
+//app.use('/nossos-projetos', require('./routes/navbar'))
+//app.use('/nossos-ligantes', require('./routes/navbar'))
+//app.use('/olimpiada', require('./routes/navbar'))
+//app.use('/neurosciencia-no-brasil', require('./routes/navbar'))
+
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
