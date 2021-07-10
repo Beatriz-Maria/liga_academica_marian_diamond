@@ -55,7 +55,7 @@ html, body {
 -----------------------------------------*/
 
 #home {
-    background: url("/imagens/capa-site.png") 75% 0 repeat-y fixed;
+    background: url("/imagens/index/capa-site.png") 75% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
