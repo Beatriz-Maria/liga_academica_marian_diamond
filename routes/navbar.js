@@ -6,16 +6,6 @@ router.get('/', function(req, res, next) {
     res.render('quem-somos', { title: 'Funcionou!!!!' });
   });
 
-  /*GET home page como participar*/
-router.get('/', function(req, res, next) {
-  res.render('como-participar', { title: 'Funcionou!!!!' });
-});
-
-/*GET home page quem-somos*/
-router.get('/', function(req, res, next) {
-  res.render('nossos-projetos', { title: 'Funcionou!!!!' });
-});
-
 /*GET home page nossos ligantes*/
 router.get('/', function(req, res, next) {
   res.render('nossos-ligantes', { title: 'Funcionou!!!!' });

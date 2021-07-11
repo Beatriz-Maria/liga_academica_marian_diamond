@@ -1,0 +1,14 @@
+/*------------------------------------
+COMO PARTICIPAR
+-------------------------------------*/
+
+.quem-pode-participar h2{
+    margin-top: 20px;
+    text-align: center;
+}
+.container-quem-pode-participar{
+    display: flex;
+    padding: 42px 22px;
+    height: 90vh;
+    justify-content:center;
+}
